@@ -1,8 +1,8 @@
-
 body {
     margin-left: 50px;
     margin-right: 50px;
     background-color: #56666B;
+    padding-top: 60px; 
 }
 
 h1, h2 {
@@ -10,6 +10,15 @@ h1, h2 {
     font-family: "Alfa Slab One", serif;
 }
 
+header {
+    position: fixed;
+    top: 0; 
+    left: 50px;
+    right: 50px;
+    width: auto;
+    z-index: 1000; 
+    background-color: #56666B;
+}
 
 header.border-bottom {
     border-color: #101319 !important;
@@ -19,21 +28,16 @@ header.border-bottom {
     border-color: #101319 !important;
 }
 
-
-
 .carousel {
     aspect-ratio: 1 / 1;
     overflow: hidden;
 }
-
-
 
 .carousel-inner img {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
-
 
 section {
     background-color: transparent;
@@ -43,22 +47,17 @@ hr {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    border: 5px solid black;
 }
-
-
 
 .app-nick {
-   
     color: #DADEE7;
-    
 }
-
 
 .nav-button {
     background-color: transparent !important;
-    color: #8D9CB9 !important;
-    border: 1px solid #8D9CB9;
+    color: #aaafb9 !important;
+    border: 1px solid #2F394D;
     border-radius: 25px;
     padding: 0.5rem 1.5rem !important;
     font-weight: 500;
@@ -78,28 +77,25 @@ hr {
     border-color: #2F394D;
 }
 
-
-
-
 .alfa-slab-one-regular {
-  font-family: "Alfa Slab One", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
-
 
 .markazi-text-regular {
-  font-family: "Markazi Text", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-p{
+p {
     font-family: "Markazi Text", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: larger;
 }
+
+
